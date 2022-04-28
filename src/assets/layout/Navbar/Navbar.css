@@ -1,0 +1,83 @@
+.navbar {
+  display: fixed;
+  height: 100vh;
+}
+
+.logo {
+  width: 110px;
+}
+
+.divMenuLateral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #313131;
+  width: 160px;
+  height: 100vh;
+}
+
+.listaMenu {
+  list-style: none;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  display: block;
+  font-size: 0.7rem;
+}
+
+.listaMenu li:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.listaMenu li:last-child {
+  font-size: 0.9rem;
+}
+
+.listaMenu li {
+  margin: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fundoItemMenu {
+  font-size: 3rem;
+  color: #313131;
+  font-weight: 800;
+  position: absolute;
+  z-index: 1;
+}
+
+.frenteItemMenu {
+  position: relative;
+  z-index: 2;
+  color: #c7c7c7;
+}
+.frenteItemMenu:hover {
+  color: #f58220;
+  transition: 500ms;
+}
+
+.frenteItemMenu:focus {
+  color: #9d9d9d;
+  transition: 500ms;
+}
+
+.imgSetaNav {
+  width: 15px;
+  margin: 0 15px;
+}
+
+.uItemMenu {
+  text-transform: none;
+  padding: 10px;
+  color: #c7c7c7;
+  opacity: 60%;
+  width: 100%;
+}
+
+.alinhar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
