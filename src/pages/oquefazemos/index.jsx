@@ -58,7 +58,6 @@ export default function OqueFazemos() {
           texto="Experimente inovar com a <strong>PlanXP</strong> para <strong>desenvolver os seus jogos 
           digitais!</strong><br><br><small>Entre em contato agora mesmo.</small>"
         />
-        <img className="imgSetaO" src={Seta} alt="aaa" />
       </div>
       
     </section>

@@ -37,7 +37,7 @@ mark {
   color: #313131;
   font-weight: 800;
   position: absolute;
-  top: 80px;
+  top: 110px;
   left: 230px;
   z-index: 0;
 }
@@ -50,6 +50,7 @@ mark {
 }
 
 .newsImg {
+  height: 120px;
   width: auto;
 }
 
@@ -57,25 +58,28 @@ mark {
   margin: 5px 0;
 }
 
-.newsTitulo {
-  color: #f2f2f2;
-  font-size: 1rem;
-  line-height: 20px;
-  margin: 7px 0;
-}
-
 .newsDivTexto {
   background-color: #313131;
   width: 100%;
   height: 190px;
   padding: 5px 15px;
+  overflow: hidden;
+}
+
+.newsTitulo {
+  color: #f2f2f2;
+  height: 40px;
+  font-size: 0.9rem;
+  line-height: 20px;
+  margin: 4px 0;
+  overflow: hidden;
 }
 
 .newsTexto {
   color: #f1f1f1;
   opacity: 80%;
   font-size: 0.65rem;
-  height: 80px;
+  height: 75px;
   width: 100%;
   line-height: 18px;
   overflow: hidden;
@@ -90,9 +94,7 @@ mark {
   font-size: 0.7rem;
   opacity: 70%;
   text-transform: uppercase;
-  margin-top: 30px;
-  position: absolute;
-  top: 480px
+  margin-top: 10px;
 }
 
 .cliqueSaiba{
@@ -123,3 +125,5 @@ mark {
   width: auto;
   height: 10px;
 }
+
+

@@ -9,9 +9,9 @@ import imgGrupoPlan from "../../assets/img/imgGrupoplan.png";
 import imgFullup from "../../assets/img/imgFullup.png";
 import logoContato from "../../assets/img/logoContato.png";
 
-
 export default function Contato() {
-  return (
+
+   return (
     <section className="secContato">
       <form className="contatoForm">
         <span className="contatoFundo">05.</span>
@@ -52,7 +52,6 @@ export default function Contato() {
             rows="4"
           ></textarea>
         </label>
-
         <img className="contatoImg" src={imgCaptcha} alt="captcha" />
         <button className="contatoBtn" type="submit">
           Enviar
@@ -95,8 +94,8 @@ export default function Contato() {
             /SP
           </h2>
           <p className="sociaisCardtexto">
-          Rua Ibijaú, 355/Sala 1309 <br></br>
-          São Paulo / SP<br></br>
+            Rua Ibijaú, 355/Sala 1309 <br></br>
+            São Paulo / SP<br></br>
             Brasil<br></br>
             +55 51 98229.0400
           </p>
@@ -107,9 +106,14 @@ export default function Contato() {
         </div>
 
         <div className="sociaisCards">
-          <img className="sociaisImg" src={imgGrupoPlan} alt="Imagem grupo plan" />
+          <img
+            className="sociaisImg"
+            src={imgGrupoPlan}
+            alt="Imagem grupo plan"
+          />
           <p className="sociaisCardtexto">
-          A Plan faz parte do Grupo Plan Marketing, um grupo de comunicação completo.
+            A Plan faz parte do Grupo Plan Marketing, um grupo de comunicação
+            completo.
           </p>
           <div className="sociaisCardimg">
             <p className="sociaisTextos">conheça</p>
@@ -118,9 +122,14 @@ export default function Contato() {
         </div>
 
         <div className="sociaisCards">
-          <img className="sociaisImg" src={logoContato} alt="Imagem grupo plan" />
+          <img
+            className="sociaisImg"
+            src={logoContato}
+            alt="Imagem grupo plan"
+          />
           <p className="sociaisCardtexto">
-          A Plan é especializada em realidade virtural, realidade aumentada e jogos.
+            A Plan é especializada em realidade virtural, realidade aumentada e
+            jogos.
           </p>
           <div className="sociaisCardimg">
             <p className="sociaisTextos">conheça</p>
@@ -131,14 +140,14 @@ export default function Contato() {
         <div className="sociaisCards">
           <img className="sociaisImg" src={imgFullup} alt="Imagem grupo plan" />
           <p className="sociaisCardtexto">
-          A FullUp é uma agência especializada em branding, design e campanhas.
+            A FullUp é uma agência especializada em branding, design e
+            campanhas.
           </p>
           <div className="sociaisCardimg">
             <p className="sociaisTextos">conheça</p>
             <img className="socialSeta" src={Seta} alt="seta" />
           </div>
         </div>
-
       </div>
     </section>
   );

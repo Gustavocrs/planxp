@@ -45,7 +45,7 @@ export default function PlanNews() {
           grupo="cargo br"
           titulo="Estamos desenvolvendo o novo site da CargoBR"
           texto="Aliquam ullamcorper augue a ligula aliquam rhoncus. Nullam accumsan auctor 
-      elementum Nam ferment..."
+          elementum Nam fermentum mattis ligula vulputate bibendum..."
         />
         <CardPlan
           img={Planimg4}
