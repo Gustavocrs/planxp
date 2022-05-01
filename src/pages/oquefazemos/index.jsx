@@ -5,7 +5,7 @@ import Img1 from "../../assets/img/img1.png";
 import Img2 from "../../assets/img/img2.png";
 import Img3 from "../../assets/img/img3.png";
 import Img4 from "../../assets/img/img4.png";
-import Seta from "../../assets/img/seta.png";
+// import Seta from "../../assets/img/seta.png";
 
 export default function OqueFazemos() {
   return (
