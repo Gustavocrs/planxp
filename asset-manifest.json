@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/planxp/static/css/main.c5fc86c5.css",
+    "main.js": "/planxp/static/js/main.4a6fc536.js",
+    "static/media/img1.png": "/planxp/static/media/img1.5d719c7a582c5ac3797d.png",
+    "static/media/imgplan5.png": "/planxp/static/media/imgplan5.b6b6db8371f57fb337dc.png",
+    "static/media/img3.png": "/planxp/static/media/img3.f4a6d584d6412daee8b9.png",
+    "static/media/imgplan3.png": "/planxp/static/media/imgplan3.514e0ed02dc1176b0c29.png",
+    "static/media/imgplan4.png": "/planxp/static/media/imgplan4.6b346ed9e21a1ca76629.png",
+    "static/media/img2.png": "/planxp/static/media/img2.36e70b2328abedeb48b9.png",
+    "static/media/imgplan1.png": "/planxp/static/media/imgplan1.c4b5d49e10e4ce4eacec.png",
+    "static/media/imgplan2.png": "/planxp/static/media/imgplan2.88b73ae031fe991260fb.png",
+    "index.html": "/planxp/index.html",
+    "main.c5fc86c5.css.map": "/planxp/static/css/main.c5fc86c5.css.map",
+    "main.4a6fc536.js.map": "/planxp/static/js/main.4a6fc536.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5fc86c5.css",
+    "static/js/main.4a6fc536.js"
+  ]
+}
